@@ -107,6 +107,14 @@ local plugins = {
     },
   },
 
+  {
+    "Asheq/close-buffers.vim",
+    lazy = false,
+    cmd = {
+      "Bdelete",
+    },
+  },
+
   -- {
   --   "sbdchd/neoformat",
   --   cmd = {
